@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone', // Génère proprement le dossier requis pour Render
-  
-  // Pour éviter l'erreur sur __dirname en ES Modules, nous le retirons du bloc de configuration
-  // Next.js détecte nativement la racine du projet lorsque output standalone est activé.
+  output: 'standalone', 
+  experimental: {
+    automaticallyCopyHtmlAndAssets: true, // <-- Ajoute automatiquement le CSS/Assets au dossier standalone
+  },
 };
 
 export default nextConfig;

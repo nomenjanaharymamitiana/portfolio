@@ -372,7 +372,7 @@ function HeroSection() {
             {/* Image container */}
             <div className="relative w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden border-2 border-emerald-500/40 bg-card">
               <img
-                src="/profile-placeholder.png"
+                src="/Screenshot from 2026-06-06 14-12-48.png"
                 alt="Photo de profil de Nomenjanahary Mamitiana"
                 className="w-full h-full object-cover"
               />
@@ -390,8 +390,8 @@ function HeroSection() {
           custom={1}
           className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4"
         >
-          <span className="text-foreground">Nomenjanahary</span>{' '}
-          <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-300 bg-clip-text text-transparent">
+          <span className="text-foreground"> RAHARILALAINA </span>{' '}
+          <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-300 bg-clip-text text-transparent">Nomenjanahary
             Mamitiana
           </span>
         </motion.h1>
